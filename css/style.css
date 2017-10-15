@@ -2,3 +2,14 @@ body{
     background-color: rgb(143, 103, 103);
     margin: 0px;
 }       
+p{
+    color: yellow;
+}
+
+.sub-judul{
+    color: red;
+}
+
+table{
+    border: 1;
+}
