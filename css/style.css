@@ -1,15 +1,137 @@
 body{
-    background-color: rgb(143, 103, 103);
-    margin: 0px;
-}       
-p{
-    color: yellow;
+
+}
+/*navigasi bar*/
+#header{
+    width: 100%;
+    height: 80px;
+    background: #000000;
+}
+#navbar{
+    width: 1000px;
+    height: 80px;
+    float: right;
+}
+#navbar>li{
+    width: 140px;
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-top: 3px;
 }
 
-.sub-judul{
-    color: red;
+/*list menu*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+ li{
+     display: inline-block;
+     float: left;
+     margin-right: 1px;
+ }
+ li a{
+     display: block;
+     min-width: 140px;
+     height: 50px;
+     text-align: center;
+     line-height: 50px;
+     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+     color: #fff;
+     background: rgb(51, 51, 51);
+     text-decoration: none;
+ }
 
-table{
-    border: 1;
+ li:hover a{
+     background-color: #19c589;
+ }
+
+ li:hover ul li a{
+     background: #f3f3f3;
+     color: #2f3036;
+     height: 40px;
+     line-height: 40px;
+ }
+
+ li:hover ul li a:hover {
+     background: #19c589;
+     color: #fff;
+ }
+
+ li ul{
+     display: none;
+ }
+
+ li ul li{
+     display: block;
+     float: none;
+ }
+
+ li ul li a{
+     width: auto;
+     min-width: 100px;
+     padding: 0 20px;
+ }
+ 
+ ul li a:hover + .dropdown, .dropdown:hover {
+     display: block;
+ }
+
+ @media screen and (max-width: 720px){
+     #header {
+         width: 100%;
+         height: 60px;
+         position: relative;
+         top: 80px;
+     }
+     #navbar{
+         width: 100%;
+         height: 60px;
+         float: right;
+         }
+    #navbar>li{
+        width: 18%;
+    }
+    li>a{
+        line-height: 60px;
+        font-size: 16px;
+    }
+    #logo{
+        width: 140px;
+        height: 80px;
+        float: left;
+        padding-left: 40px;
+        position: absolute;
+        top:-80px;
+    }
+ }
+@media screen and(max-width:480px){
+    #header {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        top: 80px;
+    }
+    #navbar{
+        width: 100%;
+        height: 60px;
+        float: none;
+        }
+   #navbar>li{
+       width: 100%;
+       list-style: none;
+       float: none;
+   }
+   li>a{
+       display: block;
+       color: white;
+       line-height: 60px;
+       font-size: 16px;
+   }
 }
