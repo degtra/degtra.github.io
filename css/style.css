@@ -8,13 +8,16 @@
     width: 1000px;
     height: 80px;
     float: right;
+    
 }
+
 #navbar>li{
     width: 140px;
     list-style: none;
     float: left;
     padding-top: 15px;
     padding-right: 10px;
+    z-index: 2;
 }
 #logo{
     float: left;
@@ -32,6 +35,7 @@ ul{
      display: inline-block;
      float: left;
      margin-right: 1px;
+     z-index: 2;
  }
  li a{
      display: block;
@@ -40,25 +44,28 @@ ul{
      text-align: center;
      line-height: 50px;
      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-     color: #fff;
-     background: rgb(51, 51, 51);
+     color: rgb(27, 25, 25);
+     background: rgb(161, 24, 24);
      text-decoration: none;
+     position: relative;
+     z-index: 1;
  }
 
  li:hover a{
-     background-color: #19c589;
+     background-color: #2f3036;
  }
 
  li:hover ul li a{
-     background: #f3f3f3;
-     color: #2f3036;
+     background: #2f3036;
+     color: #fff;
      height: 40px;
      line-height: 40px;
  }
 
  li:hover ul li a:hover {
-     background: #19c589;
+     background: rgb(161, 24, 24);
      color: #fff;
+     z-index: 2;
  }
 
  li ul{
@@ -78,6 +85,19 @@ ul{
  
  ul li a:hover + .dropdown, .dropdown:hover {
      display: block;
+ }
+
+ .pictmain{
+     width: 100%;
+     height: 300px;
+     margin: 0 auto;
+     position: relative;
+     z-index: 0;
+ }
+ .poto{
+     width: 200px;
+     height: 200px;
+     padding-right: 10px;
  }
 
  @media screen and (max-width: 720px){
