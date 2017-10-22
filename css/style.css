@@ -82,7 +82,12 @@ ul{
  ul li a:hover + .dropdown, .dropdown:hover {
      display: block;
  }
-
+ .rapi{
+     padding: 0;
+     margin: 0 auto;
+     text-align: justify;
+     float: left;
+ }
  @media screen and (max-width: 720px){
      #header {
          width: 100%;
