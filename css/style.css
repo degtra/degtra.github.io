@@ -32,7 +32,6 @@ ul{
     padding: 0;
 }
  li{
-     display: inline-block;
      float: left;
      margin-right: 1px;
      z-index: 2;
@@ -97,8 +96,49 @@ ul{
  .poto{
      width: 200px;
      height: 200px;
-     padding-right: 10px;
+     margin-right: 10px;
  }
+ .container{
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+.colkiri{
+   width: 50%;
+   height: 600px;
+   background-color: lightcoral;
+   float: left;
+   text-align: justify;
+}
+.colkanan{
+   width: 50%;
+   height: 600px;
+   background-color: lightgreen;
+   float: left;
+   text-align: justify;
+}
+.clear{
+    clear: left;
+}
+ .footer{
+     background-color: #000000;
+
+ }
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+}
+.contact{
+    text-align:center; 
+    border-bottom:2px solid black; 
+    background-color:#333131; 
+    margin:0; 
+    padding:20px; 
+    color:#eaeaea;
+}
 
  @media screen and (max-width: 720px){
      #header {
@@ -128,6 +168,7 @@ ul{
         top:-80px;
     }
  }
+
 @media screen and(max-width:480px){
     #header {
         width: 100%;
