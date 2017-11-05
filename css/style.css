@@ -26,12 +26,17 @@ margin-left: 50px;
 .aktif{
     background-color: #333131;
     font-style: oblique;
+    color: yellow;
 }
 .dropdown-menu{
     background-color: #726c6c;
 }
 .dropdown-menu li{
     margin: 15px auto;
+}
+.dropdown{
+    color: yellow;
+    
 }
  li a{
      min-width: 200px;
@@ -41,11 +46,6 @@ margin-left: 50px;
  .pictmain{
      width: 100%;
      height: 200px;
- }
- .poto{
-     width: 200px;
-     height: 200px;
-     margin-right: 10px;
  }
  .kotak{
     padding: 0;
