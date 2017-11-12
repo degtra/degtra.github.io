@@ -5,11 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Saung Angklung Udjo</title>
+	<link rel="shortcut icon" href="img/icon.png">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color: rgb(189, 173, 84);">
-	<nav class="naviku navbar navbar-default">
+	<nav class="naviku navbar navbar-default navbar-fixed-top">
 		<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="udjo"></a>
 		<div class="container">
 		  <!-- Brand and toggle get grouped for better mobile display -->
@@ -23,11 +24,12 @@
 		  </div>
 	  
 		  <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="navilist nav navbar-nav navbar-right">
 			  <li><a href="index.html">HOME</a></li>
 			  <li><a href="about.html">ABOUT</a></li>
-			  <li class="dropdown aktif">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY <span class="caret"></span></a>
+			  <li class="dropdown">
+				<a href="#" class="aktif dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY <span class="caret"></span></a>
 				<ul class="dropaing dropdown-menu">
 				  <li><a href="photo.html">PHOTO</a></li>
 				  <li><a href="video.html">VIDEO</a></li>
@@ -45,11 +47,36 @@
 			  <h1 style="text-align:center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><b>VIDEO</b></h1>
 			</div>
 	<div class="kotak container">
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sQA0aq7GCN4" frameborder="0" allowfullscreen></iframe>
-	  </div>
-	  
+
+
+
+<!-- Large modal -->
+<div class="col-sm-4 col-md-4 col-xs-6 photo">
+		<a href="https://www.youtube.com/embed/sQA0aq7GCN4" data-toggle="modal" data-target="#vid1"><img class="img-responsive" src="img/jajan-min.jpg" alt=""></a><h3>kshgdfjkhsgdf</h3>
+	</div>
+<div id="vid1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+				<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/cDxF8sPuNj4" frameborder="0" allowfullscreen></iframe>
+						</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-4 col-md-4 col-xs-6 photo">
+	<a href="https://www.youtube.com/watch?v=sQA0aq7GCN4" data-toggle="modal" data-target="#vid2"><img class="img-responsive" src="img/jajan-min.jpg" alt=""></a><h3>kshgdfjkhsgdf</h3>
+</div>
+<div id="vid2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+				<div class="embed-responsive embed-responsive-16by9">
+						<iframe  width="560" height="315" src="https://www.youtube.com/embed/sQA0aq7GCN4" frameborder="0" allowfullscreen></iframe>
+						</div>
+    </div>
+  </div>
+</div>
+
 </div>
 <div class="footer row">
 		<div class="container">

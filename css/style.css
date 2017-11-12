@@ -1,3 +1,6 @@
+body{
+    margin-top: 150px;
+}
 /*navigasi bar*/
 .naviku{
     background-color: #726c6c;
@@ -5,6 +8,7 @@
     border: 0;
     margin: 0;
     color: yellow;
+    opacity: .90;
 }
 .navbar-brand{
 padding: 0;
@@ -30,13 +34,21 @@ margin-left: 50px;
 }
 .dropdown-menu{
     background-color: #726c6c;
+    padding: 0;
 }
-.dropdown-menu li{
-    margin: 15px auto;
-}
-.dropdown{
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
     color: yellow;
-    
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: yellow;
+    background-color: #333131;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: yellow;
+    background-color: #333131;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: yellow;
 }
  li a{
      min-width: 200px;
@@ -76,12 +88,12 @@ margin-left: 50px;
     margin-right: auto;
     margin-left:auto; 
     font-family:cursive;
-    font-size: 40px;
+    font-size: 25px;
     font-style: italic;
-    text-decoration: none;
 }
 .table-responsive{
     border:none;
+    overflow-x: unset;
 }
 #map{
     width: 100%;
@@ -99,4 +111,41 @@ margin-left: 50px;
 .photo{
     margin: 40px auto;
     text-align: center;
+}
+.miring img{
+    display: block;
+}
+.miring:hover img{
+    opacity: .6;
+    transform: scale(.92);
+}
+.miring img:hover{
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 7px rgba(0, 0, 0, .5);
+}
+
+.modul{
+    display: none;
+    z-index: 100;
+    position: fixed;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #6d6d6d;
+}
+
+.modul-inner{
+    border: 8px solid #ccc;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.table{
+    border-color:#333131;
+    margin-left: 25px;
 }
