@@ -57,6 +57,7 @@
 <div id="vid1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
+			<button id="btn-close">X</button>
 				<div class="embed-responsive embed-responsive-16by9">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/cDxF8sPuNj4" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -76,7 +77,36 @@
     </div>
   </div>
 </div>
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vid4">Large modal</button>
 
+<div id="vid3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+
+    </div>
+  </div>
+</div>
+
+<div id="vid4" class="modal fade" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+						<div class="embed-responsive embed-responsive-16by9">
+								<iframe  width="560" height="315" src="https://www.youtube.com/embed/sQA0aq7GCN4" frameborder="0" allowfullscreen></iframe>
+								</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 </div>
 <div class="footer row">
 		<div class="container">
