@@ -8,7 +8,7 @@ $(window).scroll(function () {
     });
     
     $('.jumbotron h2').css({
-        'transform' : 'translate(0px, '+wscroll/1.5+'%)'
+        'transform' : 'translate(0px, '+wscroll/1+'%)'
     });
     $('.jumbotron p').css({
         'transform' : 'translate(0px, '+wscroll/4+'%)'
