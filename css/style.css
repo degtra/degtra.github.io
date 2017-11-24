@@ -1,0 +1,278 @@
+body{
+    background-image: url(../img/pattern.jpg);
+}
+
+.jumbotron{
+    margin:0;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    line-height: 300px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.jumbotron h1{
+    margin-top:100px;
+}
+.judul{
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+    text-align:center;
+}
+.kontener{
+    background-color: #726c6c;
+    text-align: center;
+    color: black;
+    
+}
+.konten li{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #726c6c;
+    display: inline;
+    margin-right: 100px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.konten li, .konten li img, .konten li span{
+    border-radius: 10%;
+
+}
+.konten li span{
+    display: block;
+    width: 244px;
+    height: 244px;
+    background-color: rgba(200, 200, 200, .3);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 244px;
+    font-size: 25px;
+    font-family: 'lobster', cursive;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(0) rotate(0);
+}
+
+.konten li:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+}
+
+.kontener .konten{
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: .4s;
+}
+.kontener .konten.nimbul{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/*navigasi bar*/
+.naviku{
+    background-color: #726c6c;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    color: #eaeaea;
+    opacity: .90;
+}
+.navbar-brand{
+padding: 0;
+margin-left: 50px;
+
+}
+
+.naviku .navbar-brand{
+    color: #eaeaea;
+}
+.naviku .navilist li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eaeaea;
+}
+.naviku .navilist li a:hover{
+    background-color: #333131;
+    color: #eaeaea;
+}
+.aktif{
+    background-color: #333131;
+    font-style: oblique;
+    color: #eaeaea;
+}
+.dropdown-menu{
+    background-color: #726c6c;
+    padding: 0;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: #eaeaea;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: #eaeaea;
+    background-color: #333131;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #eaeaea;
+    background-color: #333131;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #eaeaea;
+}
+ li a{
+     min-width: 200px;
+     text-align: center;
+ }
+
+ .pictmain{
+     width: 100%;
+     height: 200px;
+ }
+
+.visimisi{
+    background-color: #eaeaea;
+    margin: 0;
+}
+ .footer{
+     background-color: #726c6c;
+     color: #eaeaea;
+     border-radius: 0px;
+     font-family: 'PT Sans', sans-serif;
+ }
+.contact{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.table-responsive{
+    border:none;
+    overflow-x: unset;
+}
+#map{
+    width: 500px;
+    height: 300px;
+}
+
+.faq{
+    font-family: cursive; 
+    font-size:15px; 
+    text-align: justify;
+}
+.potoabout{
+    margin: 40px auto;
+    text-align: center;
+}
+.photo{
+    margin: 40px auto;
+    text-align: justify;
+}
+.miring img{
+    display: block;
+}
+.miring:hover img{
+    opacity: .6;
+    transform: scale(.92);
+}
+.miring img:hover{
+    opacity: 1;
+    transform: scale(1) rotate(2deg);
+    box-shadow: 7px rgba(0, 0, 0, .5);
+}
+
+.mengot img{
+    display: block;
+}
+.mengot:hover img{
+    opacity: .6;
+    transform: scale(.80);
+}
+.mengot img:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    box-shadow: 7px rgba(0, 0, 0, .5);
+}
+.modul{
+    display: none;
+    z-index: 100;
+    position: fixed;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #6d6d6d;
+}
+
+.modul-inner{
+    border: 8px solid #ccc;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.kaki{
+    text-align: center;
+    color: #eaeaea;
+    padding: 10px;
+    background-color: black;
+}
+
+.container ul li{
+    display: inline-block;
+}
+
+/* animasi about */
+
+.pkiri, .pkanan{
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+.pkanan{
+    transform: translate(50px,0);
+}
+
+.pkiri.pnimbul, .pkanan.pnimbul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.udjo{
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: .4s;
+}
+.udjo.muncul{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* animasi poto */
+.gambar{
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: .6s;
+}
+.gambar.muncul{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.navigambar{
+    text-decoration:none;   
+    font-size: 20px;
+    text-align: center;
+}
+
+.navigambar ul li{
+    color: #333131;
+
+}
+
+.active li{
+    text-decoration: underline;
+    color: black;
+}
