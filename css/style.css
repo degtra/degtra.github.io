@@ -178,7 +178,7 @@ margin-left: 50px;
 .miring img:hover{
     opacity: 1;
     transform: scale(1) rotate(2deg);
-    box-shadow: 7px rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
 }
 
 .mengot img{
@@ -187,6 +187,9 @@ margin-left: 50px;
 .mengot:hover img{
     opacity: .6;
     transform: scale(.80);
+    transition: .7s;
+    border-radius: 2px;
+    box-shadow: 7px rgba(0, 0, 0, .5);
 }
 .mengot img:hover{
     opacity: 1;
