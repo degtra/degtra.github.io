@@ -25,7 +25,7 @@ body{
 .kontener{
     background-color: #726c6c;
     text-align: center;
-    color: black;
+    color: white;
     
 }
 .konten li{
@@ -134,8 +134,9 @@ margin-left: 50px;
  }
 
 .visimisi{
-    background-color: #eaeaea;
+    background-color: #bbbbbb;
     margin: 0;
+    padding: 30px 0;
 }
  .footer{
      background-color: #726c6c;
