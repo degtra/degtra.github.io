@@ -1,6 +1,4 @@
-body{
-    background-image: url(../img/pattern.jpg);
-}
+
 
 .jumbotron{
     margin:0;
@@ -18,7 +16,7 @@ body{
     font-family: 'Lobster', cursive;
     font-size:30px;
     text-align:center;
-    color: #bbbbbb;
+    color: #eed650;
 }
 .kontener{
     background-color: #726c6c;
@@ -78,7 +76,7 @@ body{
     border-radius: 0;
     border: 0;
     margin: 0;
-    color: #eaeaea;
+    color: #eed650;
     /* opacity: .90; */
 }
 .navbar-brand{
@@ -88,38 +86,38 @@ margin-left: 50px;
 }
 
 .naviku .navbar-brand{
-    color: #eaeaea;
+    color: #eed650;
 }
 .naviku .navilist li a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #eaeaea;
+    color: #eed650;
 }
 .naviku .navilist li a:hover{
     background-color: #333131;
-    color: #eaeaea;
+    color: #eed650;
 }
 .aktif{
     background-color: #333131;
     font-style: oblique;
-    color: #eaeaea;
+    color: #eed650;
 }
 .dropdown-menu{
     background-color: #726c6c;
     padding: 0;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a{
-    color: #eaeaea;
+    color: #eed650;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
-    color: #eaeaea;
+    color: #eed650;
     background-color: #333131;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #eaeaea;
+    color: #eed650;
     background-color: #333131;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-    color: #eaeaea;
+    color: #eed650;
 }
  li a{
      min-width: 200px;
@@ -138,7 +136,7 @@ margin-left: 50px;
 }
  .footer{
      background-color: #726c6c;
-     color: #eaeaea;
+     color: #eed650;
      font-family: 'PT Sans', sans-serif;
      width: 100%;
  }
@@ -219,7 +217,7 @@ margin-left: 50px;
 
 .kaki{
     text-align: center;
-    color: #eaeaea;
+    color: #eed650;
     padding: 10px;
     background-color: black;
 }
